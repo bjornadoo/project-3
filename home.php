@@ -20,7 +20,7 @@
   <div class="subnav">
     <button class="subnavbtn">Nick <i class="fa fa-caret-down"></i></button>
     <div class="subnav-content">
-      <a href="../project-3/nick/Nick.php">Bring</a>
+      <a href="../project-3/nick/Nick..html">Bring</a>
       <a href="#deliver">Deliver</a>
       <a href="#package">Package</a>
       <a href="#express">Express</a>
