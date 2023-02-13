@@ -1,16 +1,43 @@
+I guess you have your css code in a database & you want to render a php file as a CSS. If that is the case...
+
+In your html page:
+
+<html>
+<head>
+   <!- head elements (Meta, title, etc) -->
+
+   <!-- Link your php/css file -->
+   <link rel="stylesheet" href="style.php" media="screen">
+<head>
+Then, within style.php file:
+
 <?php
-
-echo date("l") . "<br>";
-
-
-echo date("l jS \of F Y h:i:s A") . "<br>";
+/*** set the content type header ***/
+/*** Without this header, it wont work ***/
+header("Content-type: text/css");
 
 
-echo "Oct 3,1975 was on a ".date("l", mktime(0,0,0,10,3,1975)) . "<br>";
-
-
-echo date(DATE_RFC822) . "<br>";
-
-
-echo date(DATE_ATOM,mktime(0,0,0,10,3,1975));
+$font_family = 'Arial, Helvetica, sans-serif';
+$font_size = '0.7em';
+$border = '1px solid';
 ?>
+
+table {
+margin: 8px;
+}
+
+th {
+font-family: <?=$font_family?>;
+font-size: <?=$font_size?>;
+background: #666;
+color: #FFF;
+padding: 2px 6px;
+border-collapse: separate;
+border: <?=$border?> #000;
+}
+
+td {
+font-family: <?=$font_family?>;
+font-size: <?=$font_size?>;
+border: <?=$border?> #DDD;
+}
