@@ -139,7 +139,7 @@ float: left;
 }
 
 .sec1{
-  background-color: rgba(24, 24, 24, 1);
+  background-color: rgb(255, 255, 255);
   height: 18cm;
   width: 100%;
   display: flex;
@@ -156,14 +156,14 @@ float: left;
        display: flex;
        justify-content: space-evenly;
        font-family: monospace;
-       background-color: red;
+       background-color: rgb(0, 0, 0);
        font-size: 200%;}
 
        
     .d1{
         
     position: relative;
-    border: 5px solid red;
+    border: 5px solid rgb(0, 0, 0);
     background-color: white;
     height: 80%;
      width: 60%;
