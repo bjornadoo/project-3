@@ -170,7 +170,8 @@ float: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+  margin-right: 15%; }
 
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
