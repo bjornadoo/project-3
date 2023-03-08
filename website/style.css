@@ -155,21 +155,11 @@ body {
   .h1{
     display: flex;
     position:absolute;
-    justify-content: center;
     color: white;
-    font-size: 34px;
-    margin-top: 9vh;
-    margin-left: 2cm;
+    font-size: 3px;
+    margin-top: 1vh;
+    margin-left: 1vw;
   }
-  .h2{
-    display: flex;
-    align-items: center;
-  
-    color: white;
-    cursor: pointer;
-  }
-
-
     .forms1{
       display: flex;
       width: 50vh;
@@ -185,11 +175,11 @@ body {
       display: flex;
       flex-direction: column;
       gap: 10px;
-      padding-left: 2em;
-      padding-right: 2em;
+      padding-left: 3em;
+      padding-right: 3em;
       padding-bottom: 0.4em;
       background-color: #171717;
-      border-radius: 20px;
+      border-radius: px;
     }
     
   
@@ -298,11 +288,12 @@ img#sl{
 
 
 .container{
-width: 33%;
-height: 33%;
+width: 80vw;
+height: 10vh;
 display: flex;
 align-items: center;
 justify-content: center;
+
 }
 footer{
    display: flex;
@@ -462,7 +453,7 @@ footer{
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #4e4e4e;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -475,14 +466,15 @@ footer{
   
   /* Style the container/contact section */
   .container {
-    border-radius: 5px;
-    padding: 10px;
-    margin-left: 100px;
+    border-radius: 1px;
+    padding: 9px;
+    margin-left: 100vw;
+    margin-top: 10vh;
   }
   
   /* Create two columns that float next to eachother */
   .column {
-    float: left;
+    float: none;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
