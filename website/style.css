@@ -398,16 +398,20 @@ footer{
 
   }
   .homepage{
-    height: 100vh;
-    width: 100vw;
+  
+    margin-left: 70%;
+    margin-right: 10%;
+    width: 200px;
+  
+  border-radius: 40px;
   }
  
   .frame{
     height: 70vh;
-    width: 50vw;
+    width: 60vw;
     margin-left: 50vw;
     margin-top: 12vh;
-    background-color: #6d6d6d;
+    background-color: #f1f0f0;
     border: #353535;
     border-style: solid;
     border-width: 2vh;
@@ -417,7 +421,7 @@ footer{
     flex-direction: column;
   }
   .frame h1{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
 
   }
@@ -473,7 +477,7 @@ footer{
   body {
     margin: 0;
     padding: 0;
-    background-color: #6d6d6d;
+    background-color: #f1f0f0;
     padding-bottom: 100px;
   }
   
@@ -487,7 +491,7 @@ footer{
     margin: 0 auto;
     padding: 40px 0;
     font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
+    color: #131313;
     text-transform: uppercase;
     letter-spacing: 6px;
   }
@@ -513,8 +517,8 @@ footer{
   .form-control, 
   textarea {
     max-width: 400px;
-    background-color: #000;
-    color: #fff;
+    background-color: #f0ebeb;
+    color: #000000;
     letter-spacing: 1px;
   }
   
@@ -557,13 +561,13 @@ footer{
   
   .list-item {
     line-height: 4;
-    color: #aaa;
+    color: #000000;
   }
   
   .contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
-    color: #bbb;
+    color: #000000;
   }
   
   .place {
@@ -579,13 +583,13 @@ footer{
   }
   
   .contact-text a {
-    color: #bbb;
+    color: #000000;
     text-decoration: none;
     transition-duration: 0.2s;
   }
   
   .contact-text a:hover {
-    color: #fff;
+    color: #444444;
     text-decoration: none;
   }
   
@@ -601,7 +605,7 @@ footer{
   }
   
   .social-media-list li a {
-    color: #fff;
+    color: #ffffff;
   }
   
   .social-media-list li {
@@ -612,8 +616,8 @@ footer{
     margin: 10px 3px;
     line-height: 60px;
     border-radius: 50%;
-    color: #fff;
-    background-color: rgb(27,27,27);
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
     cursor: pointer; 
     transition: all .2s ease-in-out;
   }
@@ -628,12 +632,12 @@ footer{
     line-height: 60px;
     border-radius: 50%;
     opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #000000;
     transition: all .2s ease-in-out;
   }
   
   .social-media-list li:hover {
-    background-color: #fff; 
+    background-color: #000000; 
   }
   
   .social-media-list li:hover:after {
@@ -643,18 +647,18 @@ footer{
   }
   
   .social-media-list li:hover a {
-    color: #000;
+    color: #ffffff;
   }
   
   .copyright {
     font: 200 14px 'Oswald', sans-serif;
-    color: #555;
+    color: #000000;
     letter-spacing: 1px;
     text-align: center;
   }
   
   hr {
-    border-color: rgba(255,255,255,.6);
+    border-color: rgba(0, 0, 0, 0.6);
   }
   
   /* Begin Media Queries*/
@@ -737,11 +741,6 @@ footer{
     font-size: 10px;
   }
   
-<<<<<<< HEAD
-
-  
-  
-=======
   .page {
     display: flex;
     flex-wrap: nowrap;  
@@ -778,4 +777,3 @@ footer{
   }
   
 
->>>>>>> 2dd767d3133d0b4439b04c2d4dea041734865b39
