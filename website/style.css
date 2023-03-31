@@ -16,7 +16,7 @@ body {
     background-color: rgb(52, 52, 52); 
     /* float: left; */
     justify-content: center;
-    width: 120vw;
+    width: 105vw;
   }
   
   .navbar a {
@@ -390,7 +390,7 @@ footer{
   .sw{
     position: absolute;
     margin-top: 30vh;
-    margin-left: 90%;
+    margin-left: 50%;
     height: 40vh;
     width: 20%;
     overflow: hidden;
@@ -400,7 +400,7 @@ footer{
   .homepage{
   
     padding-left: 37%;
-    padding-top: 5vh;
+    margin-top: 20vh;
     width: auto;
     height: auto;
     font-size: large;
@@ -411,7 +411,7 @@ footer{
   .frame{
     height: 70vh;
     width: 60vw;
-    margin-left: 90vw;
+    margin-left: 50vw;
     margin-top: 12vh;
     background-color: #f1f0f0;
     border: #353535;
@@ -739,6 +739,7 @@ footer{
     margin-right: auto;
     margin: 20px;
     text-align: center;
+ 
     font-size: 10px;
   }
   
@@ -778,10 +779,9 @@ footer{
   }
 
   .resize{
-    align-items: normal;
   padding-left: 50vw;
   margin-right: auto;
-  margin-top: -50vh;
+  margin-top: -15000px;
   width: 50%;
     
   }
@@ -793,13 +793,13 @@ footer{
     
     .footer{
     background:#000;
-    padding:30px 100px;
+    padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
     }
     
     .footer .row{
-    width: 110vw;
+    width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
     color:gray;
@@ -817,7 +817,7 @@ footer{
     }
     
     .footer .row ul{
-    width: 120vw ;
+    width: 100vw ;
     height: 0,5vh;
     }
     
