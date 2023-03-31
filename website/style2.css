@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(52, 52, 52); 
+    /* float: left; */
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  
+  .subnav .subnavbtn {
+    font-size: 26px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(184, 184, 184);
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(60, 34, 34);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: right;
+    color: rgb(161, 157, 157);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .subnav-content a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+section{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    font-family: sans-serif;
+  }
+  .card{
+    width: 18vw;
+    height: 60vh;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    margin-top: 2.5vh;
+    background-color: white;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 5px rgb(245, 245, 245);
+  }
+  .card img{ 
+  width: 18vw;
+  height: 35vh;
+  border-radius: 2vh 2vh 0vh 0vh;
+  border: none;
+  }
+  h1#name{
+    font-size: 125%;
+    margin-top: 2vh;
+  }
+  p#price{
+    margin-top: 1vh;
+  }
+  .card button{
+    display: none;
+  }

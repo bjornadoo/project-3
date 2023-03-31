@@ -1,3 +1,7 @@
+<?php
+include_once("../inc/db.inc.php");
+include_once("../inc/function.inc.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +37,7 @@
     <img src="../img/gaming_pc_transparent_icon512.png" alt="Denim Jeans" style="width:100%">
     <h1>moederbord</h1>
     <p class="price">$39.99</p>
-    <p><button>Add to Cart</button></p>
+    <button>Add to Cart</button>
   </div>
 
   <div class="card">
@@ -46,7 +50,7 @@
   </div>
  
 
-  <div class="page">
+  <!-- <div class="page"></div>
     
     <div class="card">
       <img src="../img/gaming_pc_transparent_icon512.png" alt="Denim Jeans" style="width:100%">
@@ -71,7 +75,11 @@
       <p class="price">$39.99</p>
       <p><button>Add to Cart</button></p>
     </div>
-    </div>
-   
+    </div> -->
+   <!-- <section class="card-parent"></section>`
+   <div class="card-parent"></div> -->
+
+
+   <section></section>
 </body>
 </html>
