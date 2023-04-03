@@ -8,15 +8,15 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="navbar">
+<div class="navbar">
     <img src="../img/2023-02-09 (1).png" class="img" alt="" height="3%" width="3%">
-    <a href="../website/shop.html"><img src="../img/pngegg (4).png" alt="shop"></a>
-      <a href=".././website/overons.html"> over ons </a>
-      <a href=".././website/winkel.html"> winkelen  </a>
-      <a href=".././website/contact.html"> contact </a>
-      <a href=".././website/home.html">home</a>
+        <a href="../website/shop.php"><img src="../img/pngegg (4).png" alt="shop"></a>
+      <a href=".././website/overons.php"> over ons </a>
+      <a href=".././website/winkel2.php"> winkelen  </a>
+      <a href=".././website/contact.php"> contact </a>
+      <a href=".././website/home.php">home</a>
     </div>
-  </div>
+</div>
   
   
   <br><br><br> 
