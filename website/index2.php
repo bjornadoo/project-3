@@ -7,7 +7,7 @@ In your html page:
    <!- head elements (Meta, title, etc) -->
 
    <!-- Link your php/css file -->
-   <link rel="stylesheet" href="style.php" media="screen">
+   <link rel="stylesheet" href="" media="screen">
 <head>
 Then, within style.php file:
 
